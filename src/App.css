@@ -1,0 +1,42 @@
+.App {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url('/images/jonathan-bowers-BqKdvJ8a5TI-unsplash.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+  .card {
+    width: 100%;
+    max-width: 300px;
+    border-radius: 10px;
+    border: 2px ;
+    overflow: hidden;
+    padding: 10px;
+    color: white;
+  }
+  img {
+    margin-bottom: 100px;
+  }
+  .card__name {
+    margin-bottom: 15px;
+  }
+  .card_tittle{
+    text-align: center;
+    font-size: 2.5rem;
+  }
+  .card_subtitle{
+    text-align: center;
+    font-size: 1.5rem;
+  }
+
+  .card_header,
+  .card_footer{
+    grid-column: span 2;
+  }
